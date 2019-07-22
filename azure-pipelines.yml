@@ -30,8 +30,8 @@ steps:
     command: 'pack'
     projects: '**/*.csproj'
     arguments: '--no-build --configuration $(buildConfiguration)'
-    versioningScheme: byPrereleaseNumber
-    majorVersion: '1'
+    versioningScheme: off
+    majorVersion: '3'
     minorVersion: '0'
     patchVersion: '0'
  
